@@ -1,0 +1,28 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.first-section{
+    text-align: center;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    padding: 10%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #ff5959;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+.link-button:hover{
+    opacity: .6;
+}
+.second-section{
+    padding: 5%;
+    text-align: center;
+    align-items: center;
+}
