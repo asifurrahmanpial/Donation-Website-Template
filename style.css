@@ -10,6 +10,9 @@ body{
     color: white;
     padding: 10%;
 }
+.donate-button{
+    padding-top: 20px;
+}
 .link-button{
     text-decoration: none;
     background-color: #ff5959;
@@ -24,5 +27,34 @@ body{
 .second-section{
     padding: 5%;
     text-align: center;
-    align-items: center;
+}
+.flexible-container{
+    display: flex;   
+    padding: 5%;
+    justify-content: center;
+}
+.box{
+    font-weight: bold;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px gray;
+    background-image: linear-gradient(grey);
+    padding: 20px 20px;
+}
+.box:hover{
+    background-color: #ff5959;
+}
+.form-field {
+  width: 50%;
+  border: 0;
+  border-bottom: 2px solid grey;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+::placeholder{
+    text-align: center;
 }
