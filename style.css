@@ -1,6 +1,8 @@
+/* for whole website */
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* applicable on the first section */
 .first-section{
     text-align: center;
     background-image: url(images/donation1.jpg);
@@ -10,9 +12,11 @@ body{
     color: white;
     padding: 10%;
 }
+/* donation buttons */
 .donate-button{
     padding-top: 20px;
 }
+/* donation button desgin */
 .link-button{
     text-decoration: none;
     background-color: #ff5959;
@@ -21,18 +25,22 @@ body{
     padding: 5px 10px;
     font-weight: 600;
 }
+/* hover effect */
 .link-button:hover{
     opacity: .6;
 }
+/* applicable for second section */
 .second-section{
     padding: 5%;
     text-align: center;
 }
+/* flex container for more than one content */
 .flexible-container{
     display: flex;   
     padding: 5%;
     justify-content: center;
 }
+/* box items */
 .box{
     font-weight: bold;
     margin: auto;
@@ -41,9 +49,11 @@ body{
     background-image: linear-gradient(grey);
     padding: 20px 20px;
 }
+/* box hover effect */
 .box:hover{
     background-color: #ff5959;
 }
+/* input field design */
 .form-field {
   width: 50%;
   border: 0;
@@ -55,6 +65,141 @@ body{
   background: transparent;
   transition: border-color 0.2s;
 }
+/* placeholder placement */
 ::placeholder{
     text-align: center;
+}
+/* applicable for third sectoin */
+.third-section{
+    text-align: center;
+}
+/* design for box contents */
+.partitions{
+    padding-top: 5%;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    width: 25%;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* box hover effect */
+.partitions:hover{
+    font-size: 120%;
+}
+/* effect for partition one */
+#p-one{
+    background-color: #4f9da6;
+}
+/* effect for partition two */
+#p-two{
+    background-color: #ff5959;
+}
+/* effect for partition three */
+#p-three{
+    background-color: #fff4d6;
+}
+/* for aligning fourth and fifth section texts */
+.textalignment{
+    text-align: left;
+}
+/* for fourth and fifth section */
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* image scale */
+.half-width img{
+    width: 100%;
+}
+/* applicable for fifth section */
+.fifth-section{
+    text-align: center;
+}
+/* subscribe button */
+.subs{
+    margin: 50px;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+    padding: 80px 80px;
+}
+/* email input field */
+.txt{
+    width: 50%;
+    border: 0;
+    font-size: 1rem;
+    color: black;
+    padding: 16px 15px 15px;
+    background: rgb(214, 211, 211);
+    transition: border-color 0.2s;
+    border-radius: 5px 0px 0px 5px;
+}
+.txt::placeholder{
+      text-align: left;
+}
+/* subscribe button design */
+.btn{
+    text-decoration: none;
+    background-color: #ff5959;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    padding: 14px 15px;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+/* style for sixth section */
+.sixth-section{
+    text-align: center;
+    background-color: rgb(212, 202, 175);
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+/* style for spacing between icons */
+#social-icons{
+    word-spacing: 30px;
+}
+/* style for icons */
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+/* style for facebook icon */
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+/* style for twitter icon */
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+/* style for telegram icon */
+.fa-telegram{
+    background: #229ED9;
+    color: white;
+} 
+/* style for instagram icon */
+.fa-instagram{
+    background: #8a3ab9;
+    color: white;
+}
+/* hover effect for icons */
+.fa:hover{
+    opacity: .7;
+}
+/* style for footer */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
 }
